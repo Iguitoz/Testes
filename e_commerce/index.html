@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="Imagens/Icones/favicon_io/favicon-32x32.png">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/ImagensD.css">
+    <link rel="stylesheet" href="css/opcoes.css">
+    <link rel="stylesheet" href="css/editoras.css">
+    <link rel="stylesheet" href="css/promocoes.css">
+    <link rel="stylesheet" href="css/hdeDestaque.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HQ Company</title>
+</head>
+<body>
+    <!--Icones-->
+    <header class="cabeca">
+    <div>
+            <img class="logoec" src="Imagens/Icones/logo.jpeg" alt="Logo HQ company"/> 
+        <div class="barrinha">
+            <input class="bpesquisa" type="text" id="txtBusca" placeholder="Busque por uma HQ..." > 
+            <img id="lupa"src="Imagens/Icones/lupa.png" alt="Buscar"/>
+            <img class="pnicon" src="Imagens/Icones/carrinho.png" alt="carrinho de compras"/>
+            <img class="pnicon" src="Imagens/Icones/login.png" alt="login"/> 
+        </div>
+            
+    </div> 
+    </header>
+    <!--Opções de Quadrinhos-->
+        <div class="opcoes">
+            <select id="first" class="opqs" name="Marvel">
+                <option value="Marvel">Marvel</option>
+                <option value="Homem-aranha">Homem-aranha</option>
+                <option value="Homem de Ferro">Homem de Ferro</option>
+                <option value="Hulk">Hulk</option>
+                <option value="Capitão América">Capitão América</option>
+                <option value="outros">Outros</option>
+            </select>
+            <select class="opqs" name="DC Comics">
+                <option value="DC Comics">DC Comics</option>
+                <option value="Superman">Superman</option>
+                <option value="Batman">Batman</option>
+                <option value="Mulher-Maravilha">Mulher-Maravilha</option>
+                <option value="Lanterna Verde">Lanterna Verde</option>
+                <option value="outros">Outros</option>
+            </select>
+            <select class="opqs" name="Image Comics">
+                <option value="Image Comics">Image comics</option>
+                <option value="The Walking Dead">The Walking Dead</option>
+                <option value="The Manhanttan Projects">The Manhanttan Projects</option>
+                <option value="East of West">East of West</option>
+                <option value="Rat Queens">Rat Queens</option>
+                <option value="outros">Outros</option>
+            </select>
+            <select class="opqs" name="Dark Horse">
+                <option value="Dark Horse">Dark Horse</option>
+                <option value="Hellboy">Hellboy</option>
+                <option value="Beasts of Burden">Beasts of Burden</option>
+                <option value="Next Men">Next Men</option>
+                <option value="The Mask">The Mask</option>
+                <option value="outros">Outros</option>
+            </select>
+            <select class="opqs" name="Dynamite">
+                <option value="Dynamite">Dynamite</option>
+                <option value="James Bond">James Bond</option>
+                <option value="Cavaleiro Solitário">Cavaleiro Solitário</option>
+                <option value="Vampirella">Vampirella</option>
+                <option value="The Boys">The Boys</option>
+                <option value="outros">Outros</option>
+            </select>
+            <select class="opqs" name="IDW">
+                <option value="IDW">IDW</option>
+                <option value="O último Unicórnio">O último Unicórnio</option>
+                <option value="Arquivo X">Arquivo X</option>
+                <option value="Ragnarok">Ragnarok</option>
+                <option value="Transformers">Transformes</option>
+                <option value="outros">Outros</option>
+            </select>
+            <select class="opqs" name="Boom!">
+                <option value="Boom!">Boom!</option>
+                <option value="Buffy:The Vampire Slayer">Buffy:The Vampire Slayer</option>
+                <option value="Angel">Angel</option>
+                <option value="Power Rangers">Power Rangers</option>
+                <option value="outros">Outros</option>
+            </select>
+            <select class="opqs" name="Mangás">
+                <option value="Mangás">Mangás</option>
+                <option value="Berserk">Berserk</option>
+                <option value="Boku no Hero">Boku no Hero</option>
+                <option value="Dragon Ball Super">Dragon Ball Super</option>
+                <option value="Chainsaw Man">Chainsaw Man</option>
+                <option value="outros">Outros</option>
+            </select>
+        </div>
+        <!--Imagens dinâmicas-->
+        <div class="conteudo">
+            
+            <div class="slide s1">
+                <img id="painel1" class="paineis" src="Imagens/slides/slide1.jpg" alt="gomem-aranha"/>
+            </div>
+        <!--
+            <div class="slide">
+                <img class="paineis" src="Imagens/slides/slide2.jpg" alt="Flash de outro universo"/>
+            </div>
+
+            <div class="slide">
+                <img class="paineis" src="Imagens/slides/slide3.jpg" alt=" personagens de Invecivel"/>
+            </div>
+
+            <div class="slide">
+                <img class="paineis" src="Imagens/slides/slide4.jpg" alt="The Walking dead"/>
+            </div>
+
+            <div class="slide">
+                <img class="paineis" src="Imagens/slides/slide5.jpg" alt="The boys"/>
+            </div>
+        -->
+
+        </div>
+            
+    <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
+    </div>
+
+    <div class="nav2">
+        <div class="navegacao">
+            <label id="barra1" class="barra" for="slide1"></label>
+            <label class="barra" for="slide2"></label>
+            <label class="barra" for="slide3"></label>
+            <label class="barra" for="slide4"></label>
+            <label class="barra" for="slide5"></label>
+        </div>
+    </div>
+
+    <!--Logo das editoras de HQ-->
+        <div class="divisaologo">
+            <img class="logo" src="Imagens/Logos/marvel.jpeg" alt="marvel"/>
+            <img class="logo" src="Imagens/Logos/dc.jpeg" alt="dc"/>
+            <img class="logo" src="Imagens/Logos/image.jpeg" alt="image comics"/>
+            <img class="logo" src="Imagens/Logos/dark horse.jpeg" alt="dark horse"/>
+            <img class="logo" src="Imagens/Logos/dynamite.jpeg" alt="dynamite"/>
+            <img class="logo" src="Imagens/Logos/idw.jpeg" alt="idw comics"/>
+            <img class="logo" src="Imagens/Logos/boom.jpeg" alt="boom comics"/>
+            <img class="logo" src="Imagens/Logos/manga.jpeg" alt="naruto manga"/>  
+        </div>
+
+    <!--Painnel de promoções-->
+        <div class="fundodetitulo">
+                <h2 class="cordetitulo">Promoções da Semana</h2>
+            <div>
+                 
+                <div class="itens">
+                <img id="seta1" src="Imagens/Icones/setaEsquerda.png" alt="botão de seta esquedo"/>
+                <img  id="carro1" class="carrosel" src="Imagens/hqs em promoção/HQ1.jpeg" alt="hq do spawn"/>
+                <label id="label1" class="preços">R$ 78,00</label>
+                </div>
+
+                
+                    
+                
+                <div class="itens">
+                <img class="carrosel" src="Imagens/hqs em promoção/HQ2.jpeg" alt="hq do thor"/>
+                <label id="label2" class="preços">R$ 89,00</label>
+                </div>
+
+                <div class="itens">
+                <img class="carrosel" src="Imagens/hqs em promoção/HQ3.jpeg" alt="hq do superman"/>
+                <img id="seta2" src="Imagens/Icones/setaDireita.png" alt="botão de seta direita"/>
+                <label id="label3" class="preços">R$ 57,00</label>
+                </div>  
+                
+            </div>
+        
+        </div>
+<!--Imagem da HQ + painel por trás do quadrinho + lorem da HQ + Botão de compra-->
+        <div class="fundodetitulo">
+            <h2 class="cordetitulo">História de Destaque do Mês</h2>
+            <div class="corPdestaque">
+                    <img class="destaque" src="Imagens/hqs em promoção/historiaDeDestaque.jpeg" alt="HQ de planetary">
+
+                    <p class="texto">Planetary é uma série de quadrinhos norte-americana criada pelo escritor Warren Ellis e o desenhista John Cassaday e publicada pelo selo Wildstorm da DC Comics.
+                    A série narra as aventuras de um trio de personagens misteriosos que se autodenominam "Arqueólogos do Impossível" e que trabalham sob o slogan "É um mundo estranho. Vamos mantê-lo desse jeito".
+                    A série se destaca pela reciclagem e atualização de argumentos, personagens e lugares comuns da ficção do século XX.
+                    </p>
+            </div>
+        </div>
+
+        <!--Rodapé-->
+        <footer>
+
+            <h3>Redes Sociais:</h3>
+
+            <img class="redes" id="rede1" src="Imagens/Icones/instagram.png" alt="icone do instagram">
+            <img class="redes" src="Imagens/Icones/facebook.png" alt="icone do facebook">
+            <img class="redes" src="Imagens/Icones/twitter.png"  alt="icone do twitter">
+
+            <h3>Perguntas Frequentes</h3>
+
+            <h3>HQ Company - 4444.99987.888.-00 - Rua do Tesourão - SP</h3>
+
+            <h3>Termos e Condições</h3>
+
+            <h3>Noticias de Quadrinhos no seu e-mail !</h3>
+           
+        </footer>
+    
+    
+</body>
+</html>

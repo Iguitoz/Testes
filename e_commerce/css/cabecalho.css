@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.cabeca{
+    background-color: #190B28;
+}
+
+.barrinha{
+    
+    margin-top: -110px;
+    margin-left: 150px;
+}
+
+#lupa{
+   margin-top: 10px;
+   padding-top: -10px;
+   cursor: pointer;
+}
+.pnicon{
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.logoec{
+    width: 100px;
+    height: 100px;
+    padding: 6px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 68px;
+    
+
+}
+
+.bpesquisa{
+    width: 400px; 
+    height: 35px;
+    padding-left: 15px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-top: -10px;
+    margin-left: 20%;
+    margin-bottom: 40px;
+ 
+}

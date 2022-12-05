@@ -1,0 +1,17 @@
+.opcoes{
+    background-color:#190B28;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#first{
+    margin-left: 54px;
+}
+.opqs{
+    display: inline-block;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #726DA8;
+}
